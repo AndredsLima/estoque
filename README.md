@@ -11,9 +11,10 @@ docker-compose up -d
 
 2. Criar a Fila SQS (LocalStack)
 Execute apenas uma vez:
+
 docker exec -it estoque-localstack-1 awslocal sqs create-queue --queue-name fila-pedidos
 
-3. Instalar Dependências
+4. Instalar Dependências
 
 pip install -r requirements.txt
 
